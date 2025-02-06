@@ -2,8 +2,9 @@
   "name": "nodejs_blog",
   "version": "1.0.0",
   "main": "src/app.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon --inspect src/app.js"
   },
   "repository": {
@@ -22,6 +23,9 @@
   },
   "description": "",
   "devDependencies": {
+    "chai": "^5.1.2",
+    "jsdom": "^26.0.0",
+    "mocha": "^11.1.0",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.9"
   }
