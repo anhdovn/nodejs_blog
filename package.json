@@ -2,7 +2,7 @@
   "name": "nodejs_blog",
   "version": "1.0.0",
   "main": "src/app.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "mocha",
     "start": "nodemon --inspect src/app.js"
